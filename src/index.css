@@ -1,1 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
 
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: black;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list > li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.main-part {
+  background-color: grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.reasons {
+  font-size: 24px;
+}
+
+.reasons > li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
