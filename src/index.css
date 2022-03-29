@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: Inter, san-serif;
 }
 
@@ -24,4 +24,29 @@ body {
 
 .react-logo {
   width: 60px;
+}
+
+.main-content {
+  padding: 30px 0px 400px 40px;
+  background-color: #282d35;
+  color: white;
+  background-image: url("./images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.title-facts {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.list-of-facts > li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.list-of-facts > li::marker {
+  color: #00ccff;
+  font-size: 1.6em;
 }
