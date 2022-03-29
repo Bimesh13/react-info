@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 .container {
   width: 90%;
@@ -10,8 +11,8 @@
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
-  color: black;
+  background-color: #23222a;
+  color: white;
 }
 .nav-bar {
   display: flex;
@@ -21,6 +22,7 @@
 .nav-list {
   list-style: none;
   display: flex;
+  margin-top: 10px;
 }
 
 .nav-list > li {
@@ -29,13 +31,14 @@
 }
 
 .main-part {
-  background-color: grey;
+  background-color: #282d35;
+  color: white;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .heading {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
